@@ -1,30 +1,181 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Edmond YCHuang Website</title>
-    <!-- <link rel="stylesheet" href="css/xxx.css"> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cards</title>
     <style>
-        * {
-          box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
         }
-
+        .blog-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .blog-card {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            transition: 0.3s;
+        }
+        .blog-card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-card-content {
+            padding: 20px;
+        }
+        .blog-card-content h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .blog-card-content .date-time {
+            color: #777;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .blog-card-content p {
+            color: #555;
+            margin: 15px 0;
+        }
+        .blog-card-content .article-type {
+            display: inline-block;
+            background: #e3e3e3;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+        }
     </style>
-  </head>
-  <body>
-    <div class="row">
-      <div class="map">
-        <div class="image-description">
+</head>
+<body>
 
-          <p>My profile</p>
+<div class="blog-cards-container">
+    <div class="blog-card">
+        <a href="https://youtu.be/dV8UlcOI1L0" target="_blank">
+          <img src="img/cover-photo/001.png" alt="Example Image">
+        </a>
+        <div class="blog-card-content">
+            <h2>Guild War</h2>
+            <div class="date-time">July 10, 2024</div>
+            <p>bone</p>
+            <div class="article-type">Titan</div>
         </div>
-        <!-- <a href="#" target="_blank">
-          <img src="#" alt="Forest" style="width:100%">
-        </a> -->
-        
-      </div>        
     </div>
-    <script>
-    </script>
-  </body>
+    <div class="blog-card">
+        <a href="https://youtu.be/LgqYFijnaQQ" target="_blank">
+          <img src="img/cover-photo/002.png" alt="Example Image">
+        </a>
+        <div class="blog-card-content">
+            <h2>Guild War</h2>
+            <div class="date-time">July 10, 2024</div>
+            <p>bone</p>
+            <div class="article-type">Titan</div>
+        </div>
+    </div>
+
+    <div class="blog-card">
+        <a href="https://youtu.be/V3tF5Sd4zQ0" target="_blank">
+          <img src="img/cover-photo/003.png" alt="Example Image">
+        </a>
+        <div class="blog-card-content">
+          <h2>Guild War</h2>
+          <div class="date-time">July 10, 2024</div>
+          <p>Greg-U.S.A</p>
+          <div class="article-type">Titan</div>
+        </div>
+    </div>
+
+    <div class="blog-card">
+      <a href="https://youtu.be/gQvC2kCHBCw" target="_blank">
+        <img src="img/cover-photo/004.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Cygan, Popps</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div>  
+    <div class="blog-card">
+      <a href="https://youtu.be/miMIOqPGWXw" target="_blank">
+        <img src="img/cover-photo/005.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Cygan, Popps</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div>  
+    <div class="blog-card">
+      <a href="https://youtu.be/TAJIq7Gdwtk" target="_blank">
+        <img src="img/cover-photo/006.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Kesey</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div>  
+    <div class="blog-card">
+      <a href="https://youtu.be/U7VmGRn5-f8" target="_blank">
+        <img src="img/cover-photo/007.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Mesida, Koucha</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div>  
+    <div class="blog-card">
+      <a href="https://youtu.be/9fXDMuhFePg" target="_blank">
+        <img src="img/cover-photo/008.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Abramacabra, Sidd, Koan</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div> 
+    <div class="blog-card">
+      <a href="https://youtu.be/f-CaKoOcr1w" target="_blank">
+        <img src="img/cover-photo/009.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>Mesida, Koucha</p>
+        <div class="article-type">Titan</div>
+      </div>
+    </div> 
+    <div class="blog-card">
+      <a href="https://youtu.be/nja8LL9EkFA" target="_blank">
+        <img src="img/cover-photo/010.png" alt="Example Image">
+      </a>
+      <div class="blog-card-content">
+        <h2>Guild War</h2>
+        <div class="date-time">July 10, 2024</div>
+        <p>bone</p>
+        <div class="article-type">Hero</div>
+      </div>
+    </div> 
+</div>
+
+</body>
 </html>
